@@ -4,7 +4,7 @@ import { Container, NavDropdown } from 'react-bootstrap';
 class SecondTopBar extends Component {
   render() {
     return (
-      <Container fluid className="bg-dark d-flex text-light">
+      <Container fluid className="bg-dark d-flex text-light ">
         <h1>TV Shows</h1>
         <div className="d-flex justify-content-center align-self-center ms-5 border ">
           <NavDropdown className="py-1 px-3" title="Genres" id="nav-dropdown">

@@ -1,11 +1,10 @@
 import { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Search } from 'react-bootstrap-icons';
 
 class TopBar extends Component {
   render() {
     return (
-      <Navbar className="bg-dark ">
+      <Navbar className="bg-dark mb-3">
         <Navbar.Brand href="#home">
           <img
             src="../../public/assets/logo.png"

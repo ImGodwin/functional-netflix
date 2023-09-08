@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Footer extends Component {
   render() {
     return (
-      <Container fluid className="bg-dark d-flex justify-content-center mt-3 text-light pb-5">
+      <Container fluid className="bg-dark d-flex justify-content-center mt-5 text-light pb-5">
         <Row>
           <Col>
             <p>Lorem Ipsum</p>

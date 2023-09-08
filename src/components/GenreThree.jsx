@@ -1,14 +1,14 @@
 import { Component } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
-class GenreOne extends Component {
+class GenreThree extends Component {
   state = {
     movies: [],
   };
 
   componentDidMount = async () => {
     try {
-      const response = await fetch('http://www.omdbapi.com/?apikey=6752e8d4&s=superman');
+      const response = await fetch('http://www.omdbapi.com/?apikey=6752e8d4&s=sex and the city');
 
       if (response.ok) {
         const data = await response.json();
@@ -28,7 +28,7 @@ class GenreOne extends Component {
           <h2>Series</h2>
         </div>
         <div className="d-flex justify-content-center mx-5">
-          <Container md={6} lg={5} fluid className="my-3 d-flex flex-direction-row">
+          <Container md={6} lg={5} fluid className="my-3 ">
             <Row>
               {this.state.movies.slice(0, 5).map((singleMovieImage) => (
                 <Col className="d-flex justify-content-center" key={singleMovieImage.imdbID}>
@@ -45,4 +45,4 @@ class GenreOne extends Component {
   }
 }
 
-export default GenreOne;
+export default GenreThree;
