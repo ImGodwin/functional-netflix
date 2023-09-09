@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 class TopBar extends Component {
   render() {
     return (
-      <Navbar className="bg-dark mb-3">
+      <Navbar className="bg-dark mb-3 px-4">
         <Navbar.Brand href="#home">
           <img
             src="../../public/assets/logo.png"
@@ -32,7 +32,9 @@ class TopBar extends Component {
             </Nav.Link>
           </Nav>
 
-          <Nav.Link href="#link"></Nav.Link>
+          <Nav.Link href="#link">
+            <i class="bi bi-search"></i>
+          </Nav.Link>
           <Nav.Link href="#link" className="text-light">
             KIDS
           </Nav.Link>
