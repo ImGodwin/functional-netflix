@@ -5,6 +5,7 @@ import SecondTopBar from './components/SecondTopBar';
 import GenreOne from './components/GenreOne';
 import GenreTwo from './components/GenreTwo';
 import GenreThree from './components/GenreThree';
+
 function App() {
   return (
     <div className="App bg-dark">
